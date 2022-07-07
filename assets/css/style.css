@@ -1787,17 +1787,6 @@ header a:hover,
 	font-weight: 500;
 }
 
-/* STYLE ON IPHONES */
-@media screen and (max-width: 600px) {
-	#header-hero {
-		padding-bottom: 100px;
-	}
-	
-	#header-img {
-		padding-top: 95px;
-	}
-  }
-
 /*===================================*
 03. END BANNER SECTION
 *===================================*/
@@ -6482,3 +6471,19 @@ button.btn-white:hover {
 /*===================================*
 26. END TOKEN NOTIFICATION POPUP
 *====================================*/
+
+
+/* STYLE ON IPHONES */
+@media screen and (max-width: 600px) {
+	#header-hero {
+		padding-bottom: 100px;
+	}
+	
+	#header-img {
+		padding-top: 85px;
+	}
+
+	#education {
+		width: 75%;
+	}
+  }
