@@ -324,7 +324,7 @@ button:focus {
 	height:100px;
 }
 .small_divider {
-	height:50px;
+	height:230px;
 }
 .small_space {
 	margin-top:20px;
@@ -1380,7 +1380,7 @@ header a:hover,
 .section_banner {
 	background-position: left bottom;
 	background-size: cover;
-	padding: 200px 0 100px;
+	padding: 250px 0 100px;
 	position: relative;
 	overflow:hidden;
 }
@@ -1786,6 +1786,17 @@ header a:hover,
 	color: #0c0e27;
 	font-weight: 500;
 }
+
+/* STYLE ON IPHONES */
+@media screen and (max-width: 600px) {
+	#header-hero {
+		padding-bottom: 100px;
+	}
+	
+	#header-img {
+		padding-top: 95px;
+	}
+  }
 
 /*===================================*
 03. END BANNER SECTION
